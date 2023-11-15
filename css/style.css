@@ -1,0 +1,63 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+header {
+    background-image: url(../images/Landschap-Zonsondergang-Liendense-Waard-Ton-Rothengatter-TRot-MF14767-scaled.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: solid 50px white;
+
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+.container {
+    background-color: hsl(0 100% 100% / 0.4);
+}
+
+.border {
+    border: solid;
+    border-radius: 5px;
+}
+
+main {
+    background-image: url(../images/6adf2a80301a029ea206ba827acbd2ef.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main img {
+    height: 200px;
+    width: auto;
+    object-fit: cover;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    border-radius: 5px;
+}
+
+main h1,
+main p {
+    color: white;
+}
+
+.Our-brand {
+    border-radius: 5px 5px 0 0;
+    background-color: black;
+    margin: 0 10vw;
+    padding: 30px;
+    opacity: 50%;
+}
